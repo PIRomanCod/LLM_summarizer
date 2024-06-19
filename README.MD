@@ -24,10 +24,8 @@ Whether you need to summarize articles, documents, or any other lengthy content,
 
 # Run instructions:
 - run like full app (from related folder: back/front):
-       - uvicorn main:app --host localhost --port 8000 --reload
-       - streamlit run start.py
+  - uvicorn main:app --host localhost --port 8000 --reload
+  - streamlit run start.py
  
 - run like scrypt only (from related folder: scrypt):
-       - uvicorn main:app --host localhost --port 8000 --reload
-
-# first request take a long time due LLM downloading - don't worry
+  - uvicorn main:app --host localhost --port 8000 --reload
