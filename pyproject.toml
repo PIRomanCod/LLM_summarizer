@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "summarizer"
+version = "0.1.0"
+description = ""
+authors = ["PIRomanCod <111997187+PIRomanCod@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.30.1"
+fastapi = "^0.111.0"
+sqlalchemy = "^2.0.30"
+alembic = "^1.13.1"
+streamlit = "^1.35.0"
+pydantic = "1.10.7"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+langchain = "^0.2.5"
+transformers = "^4.41.2"
+langchain-community = "^0.2.5"
+torch = "^2.3.1"
+langchain-huggingface = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
